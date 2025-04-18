@@ -149,7 +149,7 @@ client.on('message', async message => {
         }
         return;
     }
-
+     
     // 2. Handle "yes" after referral validation
     if (msg.toLowerCase() === 'yes') {
         try {
